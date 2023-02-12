@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(200, 232, 233);
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+h2 {
+    width: 20em;
+    
+    background-color: white;
+}
+
+.raiburari > h1 {
+    border-bottom: 1px solid red;
+}

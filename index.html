@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ギャラリーサイト</title>
+        <link rel="stylesheet" href="gallery.css">
+        <link rel="stylesheet" href="import.css">
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="fancyBox.js"></script>
+        <script src="Vue.js"></script>
+        <script src="animeLogo.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body id="top">
+        <div class="wrapper">
+            <!--ヘッダー-->
+            <header class="global-nav">
+                <h1>Univercity Information</h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="description.html">今回使ったライブラリはこちら</a></li>
+                        <li>Service</a></li>
+                        <li>Access</a></li>
+                        <li>Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            
+                <!--ギャラリー最上部-->
+            <section class="top">
+                <div class="wrap">
+                    <div class="text">
+                        Univercity WebSite
+                    </div>
+                </div>
+                <img src="image/univercity_free.jpg">
+            </section>
+            
+            <!--粒子-->
+            <div id="particles-js"></div>
+
+            <section class="sub-title">
+                <h2>大学のWebサイトをまとめてみました</h2>
+            </section>
+
+            <section id="container" class="clear_fix">
+                <div class="content_inner" id="post01"> 
+                    <a data-fancybox="gallery" href="image/AichiUnivercity.jpg" data-caption="愛知大学<br>名古屋キャンパス<br>〒453-8777 名古屋市中村区平池町4-60-6" >
+                        <img src="image/AichiUnivercity.jpg" alt="AichiUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post02">
+                    <a data-fancybox="gallery" href="image/AoyamaGakuinUnivercity.jpg" data-caption="青山学院大学<br>青山キャンパス<br>〒150-8366　東京都渋谷区渋谷4-4-25" >
+                        <img src="image/AoyamaGakuinUnivercity.jpg" alt="AoyamaGakuinUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post03">
+                    <a data-fancybox="gallery" href="image/ChibaUnivercity.jpg" data-caption="千葉大学<br>西千葉キャンパス<br>〒263-8522 千葉県千葉市稲毛区弥生町１−３３" >
+                        <img src="image/ChibaUnivercity.jpg" alt="ChibaUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post04">
+                    <a data-fancybox="gallery" href="image/ChibaUnivercityOfCommerce.jpg" data-caption="千葉商科大学<br>市川キャンパス<br>〒272-8512 千葉県市川市国府台(こうのだい)1-3-1" >
+                        <img src="image/ChibaUnivercityOfCommerce.jpg" alt="ChibaUnivercityOfCommerce" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post05">
+                    <a data-fancybox="gallery" href="image/ChukyoUnivercity.jpg" data-caption="中京大学<br>名古屋キャンパス<br>〒466-0825 愛知県名古屋市昭和区八事本町１０１−２ 中京大学 名古屋キャンパス" >
+                        <img src="image/ChukyoUnivercity.jpg" alt="ChukyoUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post06">
+                    <a data-fancybox="gallery" href="image/DigitalHollywoodUnivercity.jpg" data-caption="デジタルハリウッド大学<br>駿河台キャンパス<br>〒101-0062 東京都千代田区神田駿河台４−６ 御茶ノ水ソラシティアカデミア 3F/4F" >
+                        <img src="image/DigitalHollywoodUnivercity.jpg" alt="DigitalHollywoodUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post07">
+                    <a data-fancybox="gallery" href="image/KansaiGaidaiUnivercity.jpg" data-caption="関西外国語大学<br>中宮キャンパス<br>〒573-1195 大阪府枚方市中宮東之町１６−１" >
+                        <img src="image/KansaiGaidaiUnivercity.jpg" alt="KansaiGaidaiUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post08">
+                    <a data-fancybox="gallery" href="image/KindaiUnivercity.jpg" data-caption="近畿大学<br>東大阪キャンパス<br>〒577-8502 大阪府東大阪市小若江３丁目４−１" >
+                        <img src="image/KindaiUnivercity.jpg" alt="KindaiUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>
+                <div class="content_inner" id="post09">
+                    <a data-fancybox="gallery" href="image/KobeWomen'sUnivercity.jpg" data-caption="神戸女子大学<br>須磨キャンパス<br>〒654-8585 兵庫県神戸市須磨区東須磨 青山２−１" >
+                        <img src="image/KobeWomen'sUnivercity.jpg" alt="KobeWomen'sUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>   
+                <div class="content_inner" id="post10">
+                    <a data-fancybox="gallery" href="image/KogakuinUnivercity.jpg" data-caption="工学院大学<br>新宿キャンパス<br>〒163-8677 東京都新宿区西新宿１丁目２４−２" >
+                        <img src="image/KogakuinUnivercity.jpg" alt="KogakuinUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>  
+                <div class="content_inner" id="post11">
+                    <a data-fancybox="gallery" href="image/KyotoArtsAndCraftUniversity.jpg" data-caption="京都芸術工芸大学<br>東山キャンパス<br>〒605-0991 京都府京都市東山区上堀詰町２７２" >
+                        <img src="image/KyotoArtsAndCraftUniversity.jpg" alt="KyotoArtsAndCraftUniversity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div> 
+                <div class="content_inner" id="post12">
+                    <a data-fancybox="gallery" href="image/MeijiUivercity.jpg" data-caption="明治大学<br>駿河台キャンパス<br>〒101-8301 東京都千代田区神田駿河台１丁目１" >
+                        <img src="image/MeijiUivercity.jpg" alt="MeijiUivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>    
+                <div class="content_inner" id="post13">
+                    <a data-fancybox="gallery" href="image/MeijoUnivercity.jpg" data-caption="名城大学<br>天白キャンパス<br>〒468-8502 愛知県名古屋市天白区塩釜口１丁目５０１" >
+                        <img src="image/MeijoUnivercity.jpg" alt="MeijoUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>  
+                <div class="content_inner" id="post14">
+                    <a data-fancybox="gallery" href="image/MusashinoUnivercity.jpg" data-caption="武蔵野大学<br>武蔵野キャンパス<br>〒202-8585 東京都西東京市新町１丁目１−２０" >
+                        <img src="image/MusashinoUnivercity.jpg" alt="MusashinoUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>   
+                <div class="content_inner" id="post15">
+                    <a data-fancybox="gallery" href="image/NagoyaCityUnivercity.jpg" data-caption="名古屋市立大学<br>桜山キャンパス<br>〒467‐8601 名古屋市瑞穂区瑞穂町字川澄1" >
+                        <img src="image/NagoyaCityUnivercity.jpg" alt="NagoyaCityUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>      
+                <div class="content_inner" id="post16">
+                    <a data-fancybox="gallery" href="image/OsakaCollegeOfMusic.jpg" data-caption="大阪音楽大学<br>第一キャンパス<br>〒561-8555 大阪府豊中市庄内幸町1-1-8" >
+                        <img src="image/OsakaCollegeOfMusic.jpg" alt="OsakaCollegeOfMusic" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>    
+                <div class="content_inner" id="post17">
+                    <a data-fancybox="gallery" href="image/OsakaGeizyutuUnivercity.jpg" data-caption="大阪芸術大学<br>本学キャンパス<br>〒585-8555 大阪府南河内郡河南町東山４６９" >
+                        <img src="image/OsakaGeizyutuUnivercity.jpg" alt="OsakaGeizyutuUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>     
+                <div class="content_inner" id="post18">
+                    <a data-fancybox="gallery" href="image/OsakaInstituteOfTechnology.jpg" data-caption="大阪工業大学<br>大宮キャンパス<br>〒535-8585 大阪府大阪市旭区大宮５丁目１６−１" >
+                        <img src="image/OsakaInstituteOfTechnology.jpg" alt="OsakaInstituteOfTechnology" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>  
+                <div class="content_inner" id="post19">
+                    <a data-fancybox="gallery" href="image/TokyoHealthCareUnivercity.jpg" data-caption="東京医療保健大学<br>五反田キャンパス<br>〒141-8648
+                        東京都品川区東五反田4-1-17" >
+                        <img src="image/TokyoHealthCareUnivercity.jpg" alt="TokyoHealthCareUnivercity" sizes="(max-width: 400px) 100vw, 400px">
+                    </a>
+                </div>   
+                <div class="content_inner" id="post20">
+                    <a data-fancybox="gallery" href="image/TokyoKaseiDaigaku.jpg" data-caption="東京家政大学<br>板橋キャンパス<br>〒173-0003 東京都板橋区加賀１丁目１８−１" >
+                        <img src="image/TokyoKaseiDaigaku.jpg" alt="TokyoKaseiDaigaku" sizes="(max-width: 400px) 100vw, 400px">    
+                    </a>                 
+                </div>     
+            </section>
+            <div class="Page-Btn">
+                <a href="#" v-scroll-to="'#top'">^</a>
+            </div>
+        </div>
+        <footer>
+            <nav class="footer-message">
+                <ul>
+                    <li class="footer-logo">大学名から探す</li>
+                    <li class="footer-logo">場所で探す</li>
+                    <li class="footer-logo">特徴から探す</li>
+                </ul>
+            </nav>
+            
+            <nav class="link">
+            <ul>
+                <li class="link-message"><i class="fab fa-twitter"></i></li>
+                <li class="link-message"><i class="fab fa-facebook"></i></li>
+                <li class="link-message"><i class="fab fa-youtube"></i></li>
+                <li class="link-message"><i class="fab fa-instagram"></i></li>
+            </ul>
+            </nav>
+            <p class="copyright">(c) 2021- Company Logo</p>
+        </footer>
+        <script src="anime.min.js"></script>
+        <script src="particles.min.js" ></script>
+        <script src="ryushi.js"></script>
+        <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/inotom/vue-go-top@v1.0.2/dist/vue-go-top.min.js"></script>
+    </body>
+</html>
